@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header, .sobreMim {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  width: 49%;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  font-size: 25px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+body {
+  color: grey;
+}
+
+.banner {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 200px;
+  font-size: 1.5rem;
+}
+
+.banner_title {
+  margin-bottom: 16px;
+}
+
+.banner_title-color {
+  color: #5BCBB2;
+}
+
+.banner_subtitle {
+  font-weight: 200;
+}
+
+/*utilizado o media para não aparecer a setinha para baixo no desktop*/
+@media (min-width:600px) {
+  .seta {
+    display: none;
+  }
+
+  .banner_subtitle {
+    padding-bottom: 200px;
+  }
+}
+/*final do media*/
+
+.seta {
+  padding: 50px;
+}
+
+.seta_img {
+  width: 2%;
+}
+
+.projetos_title, .titles {
+  color: #B3B2B2;
+  text-align: center;
+  padding: 50px;
+}
+
+.projetos_title {
+  margin-bottom: 100px;
+}
+
+.projetos_site {
+  display: flex;
+}
+
+.site_img {
+  width:90%;
+}
+
+.site_title {
+  color: black;
+  width: 83%;
+  margin-top: 20px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.btn {
+  padding: 32px;
+  text-align: center;
+}
+
+.btn_link {
+  color: white;
+  border-radius: 1rem;
+  background-color: #48cfad;
+  padding: 9px;
+  margin-top: 25px;
+  font-size: 3.5vh;
+  margin-bottom: 21px;
+  text-decoration: none;
+}
+
+.sobreMim {
+  background-color: black;
+  text-align: center;
+}
+
+.titles {
+  height: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sobreMim_img {
+  background-color: #ddd;
+  border-radius: 100%;
+  height: 157px;
+  object-fit: cover;
+  width: 157px;
+}
+
+.sobreMim_description {
+  margin-top: 1%;
+  margin-left: 21%;
+  width: 54%;
+  font-size: 80%;
+}
+
+.btn_link_sobreMim {
+  text-transform: uppercase;
+  color: #48cfad;
+  text-decoration: none;
+  border: 1px solid #48cfad;
+  padding: 3px 27px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contato {
+  height: 50vh;
+}
+
+.contato_title {
+  color: #B3B2B2;
+  text-align: center;
+  padding: 5%;
+  font-size: 200%;
+}
+
+.contato_icons {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+.contato_img {
+  margin: 27px;    
+}
+
+.contato_img-icon {
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  padding: 10px;
+}
