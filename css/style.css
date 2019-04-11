@@ -51,6 +51,7 @@ body {
   text-transform: uppercase;
   margin-top: 200px;
   font-size: 1.5rem;
+  transition: 0.5s;
 }
 
 .banner_title {
@@ -83,7 +84,7 @@ body {
 }
 
 /*utilizado o media para não aparecer a setinha para baixo no desktop*/
-@media (min-width:800px) {
+/* @media (min-width:800px) {
   .seta {
     display: none;
   }
@@ -91,7 +92,7 @@ body {
   .banner_subtitle {
     padding-bottom: 200px;
   }
-}
+} */
 /*final do media*/
 
 .seta {
@@ -100,6 +101,30 @@ body {
 
 .seta_img {
   width: 90px;
+  background-color: black;
+  margin: 11px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* .buttonImg {
+  background-color: black;
+  border-width: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+} */
+
+.setaText {
+  color: #B3B2B2;
+  text-align: justify;
+  text-transform: initial;
+  width: 60%;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.setaText--invisible {
+  display: none;
 }
 
 .projetos_title, .titles {
